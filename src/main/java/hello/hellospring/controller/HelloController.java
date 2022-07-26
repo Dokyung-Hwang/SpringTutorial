@@ -27,7 +27,7 @@ public class HelloController {
         return "hello " + name;
     }
 
-    // data를 반환 받으려면
+    // Data를 반환 받으려면
     @GetMapping("hello-api")
     @ResponseBody
     public Hello helloApi(@RequestParam("name") String name) {
